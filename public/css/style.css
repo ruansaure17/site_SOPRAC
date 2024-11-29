@@ -277,5 +277,9 @@
     .senha{
         margin-left: 560px;
     }
+    /*Fim Estilizando a página de login*/
 
+    img{
+        object-fit: cover;
+    }
     
