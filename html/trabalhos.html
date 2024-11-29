@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soprac</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" class="logoicon" href="IMG/Image-removebg-preview.png" type="image/x-icon">
+
+</head>
+<body class="imagem_de_fundo" background="/IMG/wallpaper.png">
+  <header>
+    <!-- Barra de links de navegação do site na parte superior -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" role="navigation">
+      <div class="container-fluid">
+        <!-- Logo e link para a página inicial -->
+        <a href="index.html">
+          <img src="/IMG/Image-removebg-preview.png" height="100px" alt="Logo da Soprac">
+        </a>
+        <a class="navbar-brand" href="index.html">Soprac</a>
+        
+        <!-- Botão para expandir/collapse menu em telas menores -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links do menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <!-- Link para Início -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <!-- Link principal do dropdown -->
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Animais
+              </a>
+              
+              <!-- Opções do dropdown -->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pequeno_porte.html">Pequeno porte</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="medio_porte.html">Médio porte</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="grande_porte.html">Grande porte</a></li>
+              </ul>
+            </li>
+            
+            
+            <!-- Link para Nossas missões -->
+            <li class="nav-item">
+              <a class="nav-link" href="trabalhos.html">Nossas missões</a>
+            </li>
+            
+            <!-- Link para Sobre nós -->
+            <li class="nav-item">
+              <a class="nav-link active" href="Sobre.html">Sobre nós</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Fim da barra de navegação -->
+
+  </header>
+     
+      <main>
+
+        <section class="banner"> <!--Section do banner da soprac-->
+          <div>
+            <img class= "arte_banner" src="/IMG/banner_soprac.jpg" alt="Banner da Sociedade protetora dos animais de caieiras (SOPRAC)">
+          </div>
+        </section>
+      
+        <h1 class="titulo_missao">Nossos trabalhos</h1>
+        
+        <div class="ano" onclick="toggleInformacoes(this)">
+          <div class="titulo">2019</div>
+          <div class="informacoes">
+            Castrações: 300<br>
+            Resgates: 131<br>
+            Adoções: 56
+          </div>
+        </div>
+      
+        <div class="ano" onclick="toggleInformacoes(this)">
+          <div class="titulo">2020</div>
+          <div class="informacoes">
+            Castrações: 723<br>
+            Resgates: 248<br>
+            Adoções: 180
+          </div>
+        </div>
+      
+        <div class="ano" onclick="toggleInformacoes(this)">
+          <div class="titulo">2021</div>
+          <div class="informacoes">
+            Castrações: 586<br>
+            Resgates: 198<br>
+            Adoções: 144
+          </div>
+        </div>
+      
+        <div class="ano" onclick="toggleInformacoes(this)">
+          <div class="titulo">2022</div>
+          <div class="informacoes">
+            Castrações: 504<br>
+            Resgates: 177<br>
+            Adoções: 130
+          </div>
+        </div>
+      
+        <div class="ano" onclick="toggleInformacoes(this)">
+          <div class="titulo">2023</div>
+          <div class="informacoes">
+            Castrações: 653<br>
+            Resgates: 143<br>
+            Adoções: 111
+          </div>
+        </div>
+      </main> 
+
+    <footer>
+      <img class="logo_soprac_footer" src="/IMG/Image-removebg-preview.png" alt="logo da soprac" width="35px">
+
+      <a href="https://wa.me/5511934490644" class="whatsapp">
+        <img src="/IMG/Imagem do WhatsApp de 2024-11-23 à(s) 21.38.12_20ae489d.png" alt="imagem whatsapp" target="blank" width="35px">
+      </a>
+
+      <a href="https://www.instagram.com/soprac_oficial/profilecard/?igsh=MW5wZjJkYmJxa256Ng==" class="instagram">
+        <img src="/IMG/insta.jpg" alt="imagem whatsapp" target="blank" width="30px">
+      </a>
+      <a href="https://www.facebook.com/share/1XKkHtYDm3/" class="facebook">
+        <img src="/IMG/facebook.png" alt="imagem whatsapp" target="blank" width="30px">
+      </a>
+    </footer>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+
+      function toggleInformacoes(element) {
+        const informacoes = element.querySelector('.informacoes');
+        if (informacoes.style.display === 'block') {
+          informacoes.style.display = 'none'; // Esconde as informações
+        } else {
+          informacoes.style.display = 'block'; // Mostra as informações
+        }
+      }
+    </script>
+    
+</body>
+</html>

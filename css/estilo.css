@@ -1,0 +1,33 @@
+*{
+    font: Arial;
+    color: black;
+}
+
+.imagem_de_fundo{
+    background-color: #8b4f16;
+}
+
+header{
+    background-color: white;
+    height: 120px;
+}
+
+.home{
+    margin-left: 900px;
+    margin-top: -78px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo_soprac{
+    margin-top: -15px;
+}
+
+.animais{
+    margin-left: 970px;
+    margin-top: -80px;
+    color: inherit;
+    text-decoration: none;
+}
+
+
