@@ -6,7 +6,8 @@
       { "source": "/Animais/medio_porte", "destination": "/Animais/medio_porte.html" },
       { "source": "/Animais/grande_porte", "destination": "/Animais/grande_porte.html" },
       { "source": "/login", "destination": "/login.html" },
-      {"source": "/Nossas missões","destination":"/trabalhos.html"}
+      {"source": "/Nossas missões", "destination": "/trabalhos.html"},
+      { "source": "/(.*)", "destination": "/index.html" }
     ]
   }
   
