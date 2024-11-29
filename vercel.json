@@ -1,5 +1,6 @@
 {
     "rewrites": [
+      { "source": "/(.*)", "destination": "/index.html" },
       { "source": "/Sobre", "destination": "/Sobre.html" },
       { "source": "/Animais/pequeno_porte", "destination": "/Animais/pequeno_porte.html" },
       { "source": "/Animais/medio_porte", "destination": "/Animais/medio_porte.html" },
