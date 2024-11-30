@@ -1,28 +1,15 @@
 
     .botão_entradão{
-        display: flex;
+        display:flex;
         justify-content: space-between;
-        margin-left: 20%; /* Usando percentual para garantir um layout fluido */
-        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 700px ;
+        font-family:Arial, Helvetica, sans-serif;
     }
 
 
     header{
-       
         background-color: antiquewhite;
         height: 135px;
-        position: fixed; /* Fixa o header */
-        top: 0;
-        left: 0;
-        width: 100%; /* Garante que ele ocupe toda a largura */
-        z-index: 1000; /* Mantém o header acima de outros elementos */
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
-        
-        
-    }
-
-    main{
-        margin-top: 135px;
     }
     .arte_banner{
         
@@ -116,13 +103,11 @@
 
 
     footer{
-        position: static; 
+        background-color: aliceblue;
         width: 100%;
+        float: left;
         margin-top: 20px;
-        background-color: #ffffff;
-        box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
-        padding: 20px;
-        z-index: 1000;
+        
         
     }
 
@@ -218,32 +203,29 @@
     /*Estilizando a página de login*/
 
 
-    /* Centraliza o formulário de login */
-    .form_login {
+    .form_login{
+        
         display: flex;
-        flex-direction:column ;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 30vw;
         height: 78vh;
-        border-radius: 12px;
+        border-radius: 12px ;
         border: #000;
         box-shadow: rgba(50,93,0,25) 0px 13px 27px -5px,
-                    rgba(0,0,0,0.3) 0px 8px 16px -8px;
-        margin: auto; /* Centraliza horizontalmente */
+        rgba(0,0,0,0.3) 0px 8px 16px -8px;
     }
-
-    /* Estiliza o label */
-    label {
+    label{
         padding-left: 16px;
         opacity: 0.75;
+        margin-left: 550px;
         color: #000;
         font-style: italic;
-        margin-bottom: 8px; /* Adiciona espaçamento entre o label e o input */
     }
 
-    /* Estiliza os campos de input */
-    input {
+    input{
+       
         justify-content: center;
         border-radius: 50px;
         border-style: none;
@@ -252,75 +234,48 @@
         padding: 12px;
         width: 250px;
         background-color: #EAEEED;
-        margin-bottom: 16px; /* Adiciona espaço entre os campos */
+        margin-left: 600px;
+        
+        
     }
 
-    /* Efeito de foco nos inputs */
-    input:focus {
-        opacity: 0.7;
+    input:focus{
+        opacity:0.7;
+        
     }
 
-    /* Estiliza o botão */
-    button {
+    button{
         padding: 12px 48px;
-        border-radius: 70px;
+        border-radius: 50px;
         color: white;
+        margin-top: 1rem;
         cursor: pointer;
         outline: none;
         border-width: 0;
         background-color: #1A1B27;
         font-weight: 600;
-        width: 50%; /* Ajusta a largura para ser 50% do contêiner */
-        margin-top: 1rem; /* Espaçamento do botão em relação aos campos */
+        width: 20%;
+        display: flex;
+        justify-content: center;
     }
 
-    /* Efeito de hover no botão */
-    button:hover {
+    button:hover{
         opacity: 0.8;
     }
 
-    /* Ajustes no alinhamento dos campos de input e botão */
-    .usuario, .senha {
-        width: 100%; /* Garante que os campos ocupem toda a largura disponível */
-    }
-
-    /* Responsividade para telas menores */
-    @media (max-width: 768px) {
-        .form_login {
-            width: 80vw; /* Ajusta a largura do formulário para telas pequenas */
-            height: auto; /* Ajusta a altura do formulário */
-        }
-
-        input, button {
-            width: 80%; /* Ajusta a largura dos campos */
-        }
-    }
-
-        /*Fim Estilizando a página de login*/
-
-        .timg{
-            object-fit: cover;
-        }
-
-    @media (max-width: 768px) {
-        header {
-            height: 100px; /* Ajusta a altura do header em telas menores */
-        }
-        main {
-            margin-top: 100px; /* Ajusta a margem do conteúdo principal */
-        }
-        .botão_entradão {
-            margin-left: 10%; /* Ajuste para telas menores */
-        }
-    }
-
-    .bglogin{
+    .botao_login{
         display: flex;
-        justify-content: center; /* Alinha horizontalmente */
-        align-items: center;     /* Alinha verticalmente */
-        height: 100vh;           /* Ocupa toda a altura da tela */
-        margin: 0;               /* Remove margens padrões */
-        background-color: #f4f4f4; /* Fundo suave para contraste */
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
-    
+
+    .usuario{
+        margin-left: 560px;
+    }
+
+    .senha{
+        margin-left: 560px;
+    }
+
     
