@@ -260,19 +260,14 @@
         background-color: #1A1B27;
         font-weight: 600;
         width: 20%;
-        
+        display: flex;
+        justify-content: center;
     }
 
     button:hover{
         opacity: 0.8;
     }
 
-    .botao_login{
-        display: flex;
-        justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-    }
 
     .usuario{
         margin-left: 560px;
