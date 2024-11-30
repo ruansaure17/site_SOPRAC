@@ -260,8 +260,7 @@
         background-color: #1A1B27;
         font-weight: 600;
         width: 20%;
-        display: flex;
-        justify-content: center;
+        
     }
 
     button:hover{
