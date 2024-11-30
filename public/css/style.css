@@ -250,6 +250,10 @@
         align-items: center;
     }
 
+    .registrar{
+        margin-top: -40px;
+    }
+
     button{
         padding: 12px 48px;
         border-radius: 50px;
