@@ -220,7 +220,7 @@
 
     /* Centraliza o formulário de login */
     .form_login {
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -312,6 +312,15 @@
         .botão_entradão {
             margin-left: 10%; /* Ajuste para telas menores */
         }
+    }
+
+    .bglogin{
+        display: flex;
+        justify-content: center; /* Alinha horizontalmente */
+        align-items: center;     /* Alinha verticalmente */
+        height: 100vh;           /* Ocupa toda a altura da tela */
+        margin: 0;               /* Remove margens padrões */
+        background-color: #f4f4f4; /* Fundo suave para contraste */
     }
     
     
