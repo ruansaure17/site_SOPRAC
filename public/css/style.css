@@ -279,5 +279,7 @@
     }
     /*Fim Estilizando a página de login*/
 
-   
+    .timg{
+        object-fit: cover;
+    }
     
