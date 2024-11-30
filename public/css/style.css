@@ -247,7 +247,7 @@
   
     button{
         padding: 12px 48px;
-        border-radius: 50px;
+        border-radius: 70px;
         color: white;
         margin-top: 1rem;
         margin-left: 650px;
@@ -257,8 +257,7 @@
         background-color: #1A1B27;
         font-weight: 600;
         width: 20%;
-        display: flex;
-        justify-content: center;
+       
     }
 
     button:hover{
