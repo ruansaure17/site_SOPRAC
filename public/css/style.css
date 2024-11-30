@@ -244,6 +244,11 @@
         
     }
 
+    .logar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
     .botao-login{
         padding: 12px 48px;
         border-radius: 50px;
