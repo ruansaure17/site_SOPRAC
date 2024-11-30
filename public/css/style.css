@@ -1,15 +1,28 @@
 
     .botão_entradão{
-        display:flex;
+        display: flex;
         justify-content: space-between;
-        margin-left: 700px ;
-        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 20%; /* Usando percentual para garantir um layout fluido */
+        font-family: Arial, Helvetica, sans-serif;
     }
 
 
     header{
+       
         background-color: antiquewhite;
         height: 135px;
+        position: fixed; /* Fixa o header */
+        top: 0;
+        left: 0;
+        width: 100%; /* Garante que ele ocupe toda a largura */
+        z-index: 1000; /* Mantém o header acima de outros elementos */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+        
+        
+    }
+
+    main{
+        margin-top: 135px;
     }
     .arte_banner{
         
@@ -284,4 +297,17 @@
     .timg{
         object-fit: cover;
     }
+
+    @media (max-width: 768px) {
+        header {
+            height: 100px; /* Ajusta a altura do header em telas menores */
+        }
+        main {
+            margin-top: 100px; /* Ajusta a margem do conteúdo principal */
+        }
+        .botão_entradão {
+            margin-left: 10%; /* Ajuste para telas menores */
+        }
+    }
+    
     
