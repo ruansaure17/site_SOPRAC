@@ -6,9 +6,6 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    body{
-        padding-bottom: 100px;
-    }
 
     header{
        
@@ -221,76 +218,84 @@
     /*Estilizando a página de login*/
 
 
-    .form_login{
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 30vw;
-        height: 78vh;
-        border-radius: 12px ;
-        border: #000;
-        box-shadow: rgba(50,93,0,25) 0px 13px 27px -5px,
-        rgba(0,0,0,0.3) 0px 8px 16px -8px;
-    }
-    label{
-        padding-left: 16px;
-        opacity: 0.75;
-        margin-left: 550px;
-        color: #000;
-        font-style: italic;
+    /* Centraliza o formulário de login */
+.form_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 78vh;
+    border-radius: 12px;
+    border: #000;
+    box-shadow: rgba(50,93,0,25) 0px 13px 27px -5px,
+                rgba(0,0,0,0.3) 0px 8px 16px -8px;
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+/* Estiliza o label */
+label {
+    padding-left: 16px;
+    opacity: 0.75;
+    color: #000;
+    font-style: italic;
+    margin-bottom: 8px; /* Adiciona espaçamento entre o label e o input */
+}
+
+/* Estiliza os campos de input */
+input {
+    justify-content: center;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px;
+    width: 250px;
+    background-color: #EAEEED;
+    margin-bottom: 16px; /* Adiciona espaço entre os campos */
+}
+
+/* Efeito de foco nos inputs */
+input:focus {
+    opacity: 0.7;
+}
+
+/* Estiliza o botão */
+button {
+    padding: 12px 48px;
+    border-radius: 70px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: #1A1B27;
+    font-weight: 600;
+    width: 50%; /* Ajusta a largura para ser 50% do contêiner */
+    margin-top: 1rem; /* Espaçamento do botão em relação aos campos */
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Ajustes no alinhamento dos campos de input e botão */
+.usuario, .senha {
+    width: 100%; /* Garante que os campos ocupem toda a largura disponível */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .form_login {
+        width: 80vw; /* Ajusta a largura do formulário para telas pequenas */
+        height: auto; /* Ajusta a altura do formulário */
     }
 
-    input{
-       
-        justify-content: center;
-        border-radius: 50px;
-        border-style: none;
-        outline: none;
-        margin-top: 8px;
-        padding: 12px;
-        width: 250px;
-        background-color: #EAEEED;
-        margin-left: 600px;
-        
-        
+    input, button {
+        width: 80%; /* Ajusta a largura dos campos */
     }
+}
 
-    input:focus{
-        opacity:0.7;
-        
-    }
-
-  
-    button{
-        padding: 12px 48px;
-        border-radius: 70px;
-        color: white;
-        position: relative;
-        margin-top: 1rem;
-        margin-left: 650px;
-        cursor: pointer;
-        outline: none;
-        border-width: 0;
-        background-color: #1A1B27;
-        font-weight: 600;
-        width: 40%;
-       
-    }
-
-    button:hover{
-        opacity: 0.8;
-    }
-
-
-    .usuario{
-        margin-left: 560px;
-    }
-
-    .senha{
-        margin-left: 560px;
-    }
     /*Fim Estilizando a página de login*/
 
     .timg{
