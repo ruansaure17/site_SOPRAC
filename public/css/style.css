@@ -248,6 +248,10 @@
         display: flex;
         justify-content: center;
     }
+
+    .botao_login{
+        margin-left: 30px;
+    }
     
 
     button{
