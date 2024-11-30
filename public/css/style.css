@@ -119,7 +119,7 @@
         width: 100%;
         float: left;
         margin-top: 20px;
-        position: fixed;
+        position: relative;
         top: 0;
         left: 0;
         width: 100%; /* Garante que ocupe toda a largura */
