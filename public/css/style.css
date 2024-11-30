@@ -116,7 +116,7 @@
 
 
     footer{
-        position: relative; /* Remove o 'fixed' */
+        position: static; 
         width: 100%;
         margin-top: 20px;
         background-color: #ffffff;
@@ -221,7 +221,7 @@
     /* Centraliza o formulário de login */
     .form_login {
         display: flex;
-        
+        flex-direction:column ;
         justify-content: center;
         align-items: center;
         width: 30vw;
