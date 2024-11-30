@@ -245,7 +245,7 @@
     }
 
     .logar{
-        display: flex;
+        display: contents;
         justify-content: center;
         align-items: center;
     }  
