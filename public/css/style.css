@@ -116,17 +116,13 @@
 
 
     footer{
+        position: relative; /* Remove o 'fixed' */
         width: 100%;
-        float: left;
         margin-top: 20px;
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%; /* Garante que ocupe toda a largura */
-        z-index: 1000; /* Mantém o header acima dos outros elementos */
-        background-color: #ffffff; /* Cor de fundo para cobrir elementos abaixo */
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras para destacar */
-        
+        background-color: #ffffff;
+        box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+        padding: 20px;
+        z-index: 1000;
         
     }
 
