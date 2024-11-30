@@ -244,6 +244,12 @@
         
     }
 
+    .registrar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     button{
         padding: 12px 48px;
         border-radius: 50px;
