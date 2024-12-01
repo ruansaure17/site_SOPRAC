@@ -302,6 +302,7 @@
     text-align: center; /* Centraliza o texto dentro da caixa */
     font-size: 1rem; /* Tamanho da fonte ajustável */
     line-height: 1.5; /* Espaçamento entre linhas */
+    width: 100px;
   }
   
 
