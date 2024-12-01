@@ -301,7 +301,8 @@
 .description {
     max-width: 600px; /* Limita a largura máxima */
     margin: 0 auto; /* Centraliza horizontalmente dentro do container */
-    
+    margin-left: -60px;
+    text-align: justify; /* Justifica o texto para melhor leitura */
     line-height: 1.5; /* Espaçamento entre linhas para legibilidade */
     font-size: 1rem; /* Ajusta o tamanho da fonte */
     word-wrap: break-word; /* Quebra palavras longas, se necessário */
