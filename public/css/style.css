@@ -278,8 +278,28 @@
         margin-left: 560px;
     }
 
-    .main-jandaia{
-       
-    }
+    /* Estilização do Main */
+.main-jandaia {
+    display: flex; /* Define o layout como flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: flex-start; /* Card à esquerda, texto segue ao lado */
+    padding: 20px;
+    gap: 20px; /* Espaço entre o card e o texto */
+  }
+  
+  /* Card */
+  .card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destacar */
+    border-radius: 10px; /* Borda arredondada */
+  }
+  
+  /* Texto H4 */
+  .description {
+    flex: 1; /* Faz o texto ocupar o restante do espaço */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+    font-size: 1rem; /* Tamanho da fonte ajustável */
+    line-height: 1.5; /* Espaçamento entre linhas */
+  }
+  
 
     
