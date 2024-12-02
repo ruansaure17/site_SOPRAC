@@ -7,7 +7,9 @@
       { "source": "/Animais/grande_porte", "destination": "/Animais/grande_porte.html" },
       { "source": "/login", "destination": "/login.html" },
       {"source": "/Nossas missões", "destination": "/trabalhos.html"},
-      { "source": "/(.*)", "destination": "/index.html" }
+      { "source": "/(.*)", "destination": "/index.html" },
+      { "source": "/Informações sobre a Sol", "destination": "/Sol.html" },
+      { "source": "/Informações sobre a Jandaia", "destination": "/jandaia.html" }
     ]
   }
   
