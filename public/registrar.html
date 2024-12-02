@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se</title>
+</head>
+<body>
+
+    <header>
+        <!-- Barra de links de navegação do site na parte superior -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" role="navigation">
+          <div class="container-fluid">
+            <!-- Logo e link para a página inicial -->
+            <a href="index.html">
+              <img src="/IMG/Image-removebg-preview.png" height="100px" alt="Logo da Soprac">
+            </a>
+            <a class="navbar-brand" href="index.html">Soprac</a>
+            
+            <!-- Botão para expandir/collapse menu em telas menores -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <!-- Links do menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                <!-- Link para Início -->
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <!-- Link principal do dropdown -->
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Animais
+                  </a>
+                  
+                  <!-- Opções do dropdown -->
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="pequeno_porte.html">Pequeno porte</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="medio_porte.html">Médio porte</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="grande_porte.html">Grande porte</a></li>
+                  </ul>
+                </li>
+                
+                
+                <!-- Link para Nossas missões -->
+                <li class="nav-item">
+                  <a class="nav-link" href="trabalhos.html">Nossas missões</a>
+                </li>
+                
+                <!-- Link para Sobre nós -->
+                <li class="nav-item">
+                  <a class="nav-link active" href="Sobre.html">Sobre nós</a>
+                </li>
+                
+              </ul>
+  
+              <!--Link para a página de login-->
+              <div class="div_login">
+                <a href="login.html">
+                  <img src="/IMG/download.png" alt="Login apenas para o administrador" width="40px">
+                </a>
+                
+              </div>
+              <!--Fim Link para a página de login-->
+            </div>
+          </div>
+        </nav>
+        <!-- Fim da barra de navegação -->
+  
+      </header>
+
+      <main>
+
+        <legend><b>Formulário de Cadastro</b></legend>
+        <br>
+        <div class="inputBox">
+            <input type="text" name="nome" id="nome" class="inputUser" required>
+            <label for="nome">Nome Completo</label>
+        </div>
+        <div class="inputBox">
+            <input type="email" name="email" id="email" class="inputUser" required>
+            <label for="nome">Email</label>
+        </div>
+        <div class="inputBox">
+            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+            <label for="nome">Telefone</label>
+        </div>
+        <p>Sexo: </p>
+        <!--Feminino-->
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <label for="feminino">Feminino</label>
+        <!--Masculino-->
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+        <!--Outro-->
+        <input type="radio" name="genero" id="outro" value="outro">
+        <label for="outro">Outro</label>
+
+        <div class="inputBox">
+            <input type="date" name="data_nasc" id="data_nasc">
+            <label for="data_nasc"><b>Data de nascimento</b></label>
+        </div>
+
+        <input type="submit" id="submit">
+      </main>
+
+      <footer> 
+        <!--logos das redes sociais da Soprac-->
+        <img class="logo_soprac_footer" src="/IMG/Image-removebg-preview.png" alt="logo da soprac" width="35px">
+  
+        <a href="https://wa.me/5511934490644" class="whatsapp">
+          <img src="/IMG/Imagem do WhatsApp de 2024-11-23 à(s) 21.38.12_20ae489d.png" alt="imagem whatsapp" target="blank" width="35px">
+        </a>
+  
+        <a href="https://www.instagram.com/soprac_oficial/profilecard/?igsh=MW5wZjJkYmJxa256Ng==" class="instagram">
+          <img src="/IMG/insta.jpg" alt="imagem whatsapp" target="blank" width="30px">
+        </a>
+        <a href="https://www.facebook.com/share/1XKkHtYDm3/" class="facebook">
+          <img src="/IMG/facebook.png" alt="imagem whatsapp" target="blank" width="30px">
+        </a>
+        <!--fim das logos das redes sociais da Soprac-->
+      </footer>
+  
+      <!--Botão de acessibilidade (libras)-->
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script><!--importa o script do Vlibras-->
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app'); 
+      </script>
+      <!--Fim do botão de acessibilidade-->
+    
+</body>
+</html>
