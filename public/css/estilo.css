@@ -154,3 +154,15 @@ form p {
     display: flex;
     justify-content: start;
 }
+
+.whatsapp{
+    display: inline-table;
+    margin-left: 590px;
+    margin-bottom: 15px;
+}
+
+.instagram{
+    display: inline-table;
+    margin-left: 1px;
+    margin-bottom: 15px;
+}
