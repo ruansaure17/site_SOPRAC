@@ -149,19 +149,4 @@ form p {
     }
 }
 
-.logo_soprac_footer{
-    margin-left: 0px;
-    display: flex;
-    justify-content: start;
-}
 
-.whatsapp{
-    display: inline-table;
-    margin-left: 590px;
-}
-
-.instagram{
-    display: inline-table;
-    margin-left: 1px;
-    
-}
