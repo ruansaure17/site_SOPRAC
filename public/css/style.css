@@ -279,7 +279,7 @@
     }
 
     /* Estilização do Main */
-.main-jandaia {
+.main-cachorros {
     display: flex; /* Define o layout como flexível */
     align-items: center; /* Alinha os itens verticalmente ao centro */
     justify-content: flex-start; /* Card à esquerda, texto segue ao lado */
