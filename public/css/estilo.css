@@ -150,5 +150,7 @@ form p {
 }
 
 .logo_soprac_footer{
-    margin-left: -160px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: start;
 }
