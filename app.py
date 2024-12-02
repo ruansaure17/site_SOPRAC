@@ -2,7 +2,8 @@ from flask import Flask, render_template_string, request, redirect, url_for
 import sqlite3
 import os
 
-app = Flask(__name__, static_folder='public', template_folder='public')  # Configurando static_folder e template_folder
+app = Flask(__name__, static_folder='public', template_folder='public')
+
 
 # Função para conectar ao banco de dados SQLite
 def get_db_connection():
