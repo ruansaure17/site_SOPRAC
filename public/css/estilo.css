@@ -1,18 +1,33 @@
+/* Ajustes globais */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Fundo suave */
+    background-color: #f4f4f9;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Colocar header no topo, conteúdo no meio e footer no final */
     min-height: 100vh;
 }
 
 header {
     background-color: #fefefe;
     height: 135px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para dar profundidade */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fixa o header no topo */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o header fique por cima de outros elementos */
+}
+
+main {
+    flex: 1; /* Garante que o conteúdo principal ocupe o espaço restante */
+    margin-top: 135px; /* Compensa a altura do header */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer {
@@ -21,8 +36,10 @@ footer {
     text-align: center;
     padding: 10px 0;
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    position: relative;
+    bottom: 0;
 }
+
 
 form {
     background: #ffffff;
