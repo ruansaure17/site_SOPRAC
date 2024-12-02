@@ -9,6 +9,10 @@ body {
     min-height: 100vh;
 }
 
+.imagem_de_fundo{
+    background-color: gray;
+}
+
 header {
     background-color: #fefefe;
     height: 135px;
