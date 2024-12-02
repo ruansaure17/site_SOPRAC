@@ -4,7 +4,6 @@ import os
 
 app = Flask(__name__, static_folder='public', template_folder='public')
 
-
 # Função para conectar ao banco de dados SQLite
 def get_db_connection():
     conn = sqlite3.connect('users.db')
