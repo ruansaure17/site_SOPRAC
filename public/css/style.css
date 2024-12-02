@@ -312,7 +312,12 @@
     word-wrap: break-word; /* Quebra palavras longas, se necessário */
     color:#000
   }
-  
-  
 
-    
+  /*Estilizando a página de registro*/
+
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }    
