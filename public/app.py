@@ -53,7 +53,7 @@ def cadastro():
             flash("O email já está cadastrado!", "error")
             return redirect("/")
     
-    return render_template("cadastro.html")
+    return render_template("registrar.html")
 
 @app.route("/usuarios")
 def usuarios():
