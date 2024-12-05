@@ -97,15 +97,6 @@ section {
     margin-left: 400px;
 }
 
-main {
-    flex: 1; /* Garante que o conteúdo principal ocupe o espaço restante */
-    margin-top: 135px; /* Compensa a altura do header */
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 footer {
     background-color: #fefefe;
