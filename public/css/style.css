@@ -125,7 +125,8 @@ footer{
 }
 
 .logo_soprac_footer{
-    margin-left: -80px;
+    display: flex;
+    justify-content: start;
 }
 
 .nav-item-dropdown{
