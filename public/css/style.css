@@ -125,7 +125,7 @@ footer{
 }
 
 .logo_soprac_footer{
-    display: flex;
+    display: inline-flex;
     justify-content: start;
     margin-left: 30px;
 }
