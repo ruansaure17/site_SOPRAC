@@ -1,7 +1,16 @@
 
-    body{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    html, body {
+        height: 100%;
+        margin: 0;
     }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+
     .botão_entradão{
         display:flex;
         justify-content: space-between;
@@ -37,6 +46,8 @@
     }
     .imagem_de_fundo{
         background-color: gray;
+        background-size: cover;
+        background-position: center;
     }
     .cards{
        padding: 30px;
@@ -98,16 +109,12 @@
     }
 
 
-    footer{
+    footer {
         background-color: #fefefe;
         width: 100%;
-        justify-content: center;
         text-align: center;
         padding: 10px 0;
         box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
-        position: relative; /* Padrão */
-        bottom: 0;
-        
     }
 
     main{
