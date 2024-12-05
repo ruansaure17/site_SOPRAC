@@ -199,6 +199,7 @@ footer{
 .fundoform{
     background-color: #fff;
     border-radius: 12px;
+    size: 40%;
 }
 .form_login{
     display: flex;
