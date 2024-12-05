@@ -200,6 +200,9 @@ footer{
     background-color: #fff;
     border-radius: 12px;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .form_login{
     display: flex;
