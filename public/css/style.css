@@ -196,9 +196,11 @@ footer{
 
 /*Estilizando a página de login*/
 
-
+.fundoform{
+    background-color: #fff;
+    border-radius: 12px;
+}
 .form_login{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
