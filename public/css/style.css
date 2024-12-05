@@ -97,14 +97,6 @@ section {
     margin-left: 400px;
 }
 
-
-.whatsapp{
-    display: inline-table;
-    margin-left: 590px;
-    margin-bottom: 15px;
-}
-
-
 footer{
     background-color: #fefefe;
     width: 100%;
@@ -118,8 +110,15 @@ footer{
     
 }
 
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 .instagram{
-    display: inline-table;
+    display: flex;
+    justify-content: center;
     margin-left: 1px;
     margin-bottom: 15px;
 }
@@ -127,6 +126,7 @@ footer{
 .logo_soprac_footer{
     display: flex;
     justify-content: start;
+    margin-left: 30px;
 }
 
 .nav-item-dropdown{
